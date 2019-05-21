@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <script src="../public/js/funcoes.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
 </head>
 <body ng-app="">
 <div ng-include="'menu.php'"></div>
@@ -19,10 +24,10 @@
       </div>
       <div class="form-group col-md-2">
         <label for="inputcpf4">Serviço</label>
-        <select class="form-control"> 
+        <select class="selectpicker form-control input-sm" multiple data-live-search="false" > 
           <option value="">Option 1</option>
           <option value="">Option 2</option>
-          <option value="">Option 3</option>
+          <option value="">Option 3</option> 
           <option value="">Option 4</option>
         </select>
       </div>
